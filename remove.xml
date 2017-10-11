@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+
+<!--Remove HALS-->
+   <remove-project name="hardware/qcom/media-caf" />
+   <remove-project name="hardware/qcom/display-caf" />
+</manifest>
