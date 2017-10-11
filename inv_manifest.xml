@@ -9,7 +9,7 @@
   <project path="hardware/qcom/display-caf/msm8952" name="nvdx11/hardware_qcom_display" remote="github" revision="8.0-caf-msm8952" />
   
 
-<--!Remove HALS-->
+<!--Remove HALS-->
    <remove-project name="hardware/qcom/media-caf" />
    <remove-project name="hardware/qcom/display-caf" />
 </manifest>
