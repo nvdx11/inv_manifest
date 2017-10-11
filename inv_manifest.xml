@@ -5,5 +5,15 @@
   <project path="vendor/xiaomi" name="nvdx11/proprietary_vendor_xiaomi" remote="github" revision="8.0" />
   <project path="kernel/xiaomi/msm8956" name="nvdx11/android_kernel_xiaomi_msm8956" remote="github" revision="8.0" />
   <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" remote="github" revision="lineage-15.0" />
- </manifest>
+  <project path="hardware/qcom/media-caf/msm8952" name="nvdx11/hardware_qcom_media" remote="github" revision="8.0-caf-msm8952" />
+  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/hardware_qcom_display" remote="github" revision="8.0-caf-msm8952" />
+  
+
+<--!Remove HALS-->
+   <remove-project name="hardware/qcom/media-caf" />
+   <remove-project name="hardware/qcom/display-caf" />
+</manifest>
+
+
+
  
